@@ -7,6 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/css/pagedone.css " rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +18,7 @@
     <link rel="stylesheet" href="styles/fonts.css">
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+
 
     <title>Document</title>
 </head>
@@ -85,163 +84,81 @@
     </nav>
 
 
-    <section class="content-center h-full pt-32 pb-20 z-30">
-        <div class="max-w-6xl mx-auto px-10">
+    <section class="content-center h-full z-30">
+        <div data-aos="zoom-out" data-aos-delay="50" class="h-[70vh] bg-bgContacto bg-cover content-center relative">
+            <div class="h-[70vh] bg-gradient-to-r from-blue-950/90 to-cyan-600/80 content-center">
+                <div class="flex flex-space-x-5 z-20 justify-center flex-wrap items-center">
+                    <div class="max-w-7xl px-6">
+                        <h1 data-aos="fade-up" data-aos-delay="100"
+                            class="text-5xl text-center text-white montserrat-bold">
+                            Contacto</h1>
+                    </div>
 
-            <div data-aos="zoom-in" data-aos-delay="100" class="flex w-full justify-center intems-center ">
-                <div class="flex w-full flex-wrap lg:flex-nowrap bg-white shadow-md rounded-lg overflow-hidden">
+                </div>
+            </div>
 
-                    <a href="Facturacion.html" class="flex w-full border-b-4 flex items-center p-4 border-r relative">
-                        <div class="flex items-center">
-                            <div
-                                class="w-10 h-10 flex items-center justify-center bg-emerald-400  text-indigo-600 rounded-full">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="icon text-white icon-tabler icons-tabler-outline icon-tabler-check">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M5 12l5 5l10 -10" />
-                                </svg>
+            <div class="absolute bottom-0 w-full ">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#ffffff" fill-opacity="1"
+                        d="M0,224L48,234.7C96,245,192,267,288,277.3C384,288,480,288,576,272C672,256,768,224,864,186.7C960,149,1056,107,1152,101.3C1248,96,1344,128,1392,144L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                    </path>
+                </svg>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 gap-5">
+                <div class="col-span-2 md:col-span-1 p-5">
+                    <h1 data-aos="fade-up" data-aos-delay="100" class="text-5xl montserrat-bold text-cyan-700">
+                        <span class="text-xl">Comunicate a</span> <br>
+                        soporte
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-delay="400" class="text-xl montserrat-regular text-black my-5">
+                        En caso de presentar problemac con la facturacion electronica, envie un correo a la siguiente dirreccion: <span></span>
+                    </p>
+
+                    <p data-aos="fade-up" data-aos-delay="600" class="text-sm montserrat-regular text-black my-5">
+                        Favor de mencionar el tipote de problema, y enexando el ticket escaneado y la cedula con los datos fiscales.
+                    </p>
+                </div>
+
+                <div class="col-span-2 md:col-span-1 p-5">
+                    <div class="flex flex-row w-full space-y-2 items-center">
+                        <div class="flex flex-col w-full space-y-2">
+                            <div class="w-full flex p-5 space-x-5 shadow-lg rounded-lg">
+                                <div class="h-24 w-24 rounded-full bg-cyan-100 content-center">
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-phone text-cyan-700 mx-auto"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" /></svg>
+                                </div>
+
+                                <div class="flex flex-row items-center">
+                                    <div class="flex flex-col space-y-3">
+                                        <h1 class="text-2xl montserrat-bold text-black">Llamanos</h1>
+                                        <p></p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-emerald-600">Busqueda</div>
-                                <div class="text-gray-500 montserrat-regular text-sm text-wrap">Identificar comprobante
+
+                            <div class="w-full flex p-5 space-x-5 shadow-lg rounded-lg">
+                                <div class="h-24 w-24 rounded-full bg-cyan-100 content-center">
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="text-cyan-700 mx-auto icon icon-tabler icons-tabler-filled icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>
+                                </div>
+
+                                <div class="flex flex-row items-center">
+                                    <div class="flex flex-col space-y-3">
+                                        <h1 class="text-2xl montserrat-bold text-black">Envia un correo</h1>
+                                        <p></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-emerald-600"></div>
-                    </a>
 
-                    <div href="" class="flex w-full border-b-4 flex items-center p-4 border-r relative">
-                        <div class="flex items-center">
-                            <div
-                                class="w-10 h-10 flex items-center justify-center border-2 border-emerald-400  text-indigo-600 rounded-full">
-                                <span class="text-emerald-500">02</span>
-                            </div>
-                            <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-emerald-600">Datos fiscales</div>
-                                <div class="text-gray-500 montserrat-regular text-sm text-wrap">Ingresa tus datos
-                                    fiscales</div>
-                            </div>
-                        </div>
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-emerald-600"></div>
-                    </div>
-                    <!-- Step 3 -->
-                    <div class="flex w-full flex items-center p-4">
-                        <div class="flex items-center">
-                            <div
-                                class="w-10 h-10 flex items-center justify-center border-2 border-gray-300 text-gray-300 rounded-full">
-                                03
-                            </div>
-                            <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-gray-500">Documentos</div>
-                                <div class="text-gray-500 montserrat-regular">Descarga XML y PDF.</div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-            <div class=" grid grid-cols-2 mt-10 gap-5">
-                <div class="col-span-2 md:col-span-1 ">
-                    <h1 data-aos="fade-down" data-aos-delay="500" class="text-5xl text-rose-800 montserrat-bold">Datos
-                        fiscales</h1>
-
-                    <p data-aos="fade-down" data-aos-delay="700"
-                        class="my-5 text-medium md:text-xl white-spacenormal text-dark montserrat-regular">
-                        Ingresa tus datos fiscales de acuerdo <br> a tu constancia fiscal actualizada:
-                    </p>
-
-
-                    <div data-aos="fade-down" data-aos-delay="1000" class="my-10">
-
-
-
-                        <div class="mb-5">
-                            <span class="text-sm montserrat-semibold text-dark">RFC:</span>
-                            <input type="text" class="w-full my-2 bg-gray-100 border-0 rounded-lg"
-                                placeholder="XAXX010101000">
-                        </div>
-
-
-                        <div class="mb-5">
-                            <span class="text-sm montserrat-semibold text-dark">Razon social:</span>
-                            <input type="text" class="w-full my-2 bg-gray-100 border-0 rounded-lg">
-                        </div>
-
-                        <div class="mb-5">
-                            <span class="text-sm montserrat-semibold text-dark">Domicilio:</span>
-                            <input type="text" class="w-full my-2 bg-gray-100 border-0 rounded-lg">
-                        </div>
-
-                        <div class="mb-5">
-                            <span class="text-sm montserrat-semibold text-dark">Uso de CFDI:</span>
-                            <select class="h-10 p-2 w-full my-2  rounded-lg bg-gray-100 border-0">
-                                <option value="01">01</option>
-                            </select>
-                        </div>
-
-                        <div class="mb-5">
-                            <span class="text-sm montserrat-semibold text-dark">Regimen fiscal:</span>
-                            <select class="h-10 p-2 w-full my-2  rounded-lg bg-gray-100 border-0">
-                                <option value="01">01</option>
-                            </select>
-                        </div>
-
-                    </div>
-
-
-                    <a href="DescargarDocumentos.html">
-                        <div
-                            class="group content-center relative bg-emerald-100 h-12 w-48 overflow-hidden rounded  text-lg shadow">
-                            <div
-                                class="absolute inset-0 w-3 bg-emerald-400 transition-all duration-[250ms] ease-out group-hover:w-full">
-                            </div>
-                            <div class="relative flex intems-center justify-center
-                            space-x-1 text-emerald-500 group-hover:text-white montserrat-semibold">
-
-                                <span>Generar</span>
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="icon icon-tabler m-auto icons-tabler-outline icon-tabler-chevron-right">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M9 6l6 6l-6 6" />
-                                </svg>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-
-                <div class="col-span-2 md:col-span-1">
-                    <div class="w-full">
-                        <div class="flex space-x-2 items-center rounded-t-lg bg-gray-900">
-
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="currentColor"
-                                class="icon icon-tabler icons-tabler-filled text-white m-auto icon-tabler-exclamation-circle">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-5 11.66a1 1 0 0 0 -1 1v.01a1 1 0 0 0 2 0v-.01a1 1 0 0 0 -1 -1m0 -7a1 1 0 0 0 -1 1v4a1 1 0 0 0 2 0v-4a1 1 0 0 0 -1 -1" />
-                            </svg>
-
-                            <div class="flex flex-col p-3">
-                                <h1 class="text-sm text-left montserrat-bold text-white">IMPORTANTE</h1>
-                                <p class=" text-left montserrat-regular text-sm text-white">
-                                    Favor de consultar las referencias que
-                                    se muestran en la imagen
-                                </p>
-                            </div>
-                        </div>
-                        <div>
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
     </section>
 
 
@@ -251,8 +168,8 @@
         AOS.init();
     </script>
 
-</body>
 
+</body>
 
 <footer class="bg-white w-full shadow  ">
     <div class="w-full max-w-7xl px-6 mx-auto p-4 md:py-8">
