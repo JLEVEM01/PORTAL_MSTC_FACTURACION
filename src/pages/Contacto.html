@@ -15,9 +15,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/fonts.css">
-
-
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
 
     <title>Document</title>
@@ -26,32 +25,36 @@
 <body>
 
 
-    <nav class="bg-transparent fixed z-40 w-full md:bg-white md:shadow-xl flex justify-center h-12">
-        <div class="flex md:space-x-5 justify-beetwwen">
+    <nav class="bg-transparent fixed z-40 w-full md:bg-white md:shadow-xl flex  justify-center h-12">
+
+        <div class="flex  md:space-x-5 justify-beetwwen">
 
             <div class=" hidden md:block content-center ">
-                <ul class="flex  text-sm intems-center space-x-5">
+                <ul class="flex  text-sm items-center space-x-5">
                     <li>
                         <a data-aos="fade-left" data-aos-delay="800" href="index.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">Inicio</a>
                     </li>
-                    <li>
+                    <li class="group relative ">
                         <a data-aos="fade-left" data-aos-delay="400" href="ConsultarFactura/Consulta.html"
-                            class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">Consulta</a>
+                            class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
+                            Consulta
+
+                        </a>
+
                     </li>
                 </ul>
             </div>
 
-
             <div data-aos="fade-down" data-aos-delay="100"
-                class="bg-gray-900 shadow-lg h-24 w-44 m-auto  content-center rounded-b-2xl">
-                <img data-aos="zoom-in" data-aos-delay="200" src="../public/img/logo-santa-w.png" alt="" width="150"
+                class="bg-black shadow-lg h-28 md:h-24 md:h-28 w-56 m-auto  content-center rounded-b-2xl">
+                <img data-aos="zoom-in" data-aos-delay="200" src="../../public/img/logo-santa-w.png" alt="" width="180"
                     class="m-auto">
 
                 <div class="flex justify-center ">
                     <button data-collapse-toggle="navbar-multi-level" type="button"
-                        class="inline-flex items-center mx-auto p-2 h-10 w-10 bg-white rounded-full  justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                        aria-controls="navbar-multi-level" aria-expanded="false">
+                        class="inline-flex items-center mx-auto p-2  h-10 w-10 bg-white rounded-full transition-transform duration-300  justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-multi-level" aria-expanded="false" id="menu-toggle">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 17 14">
@@ -60,20 +63,24 @@
                         </svg>
                     </button>
                 </div>
+
             </div>
 
+
             <div class=" hidden md:block  content-center ">
-                <ul class="flex  text-smintems-center  space-x-5">
-                    <li><a data-aos="fade-right" data-aos-delay="400" href=""
+                <ul class="flex  text-sm items-center  space-x-5">
+                    <li><a data-aos="fade-right" data-aos-delay="400" href="Contacto.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
                             Contacto
                         </a>
                     </li>
                     <li>
+
                         <a data-aos="fade-right" data-aos-delay="800" href="Ayuda.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
                             Ayuda
                         </a>
+
                     </li>
                 </ul>
             </div>
@@ -81,12 +88,123 @@
 
         </div>
 
+
     </nav>
+
+    <div class="w-full h-screen fixed z-30 bg-rose-900/30 backdrop-blur-2xl content-center hidden md:hidden "
+        id="navbar-multi-level">
+
+        <div class='accordion-group' data-accordion="default-accordion">
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl  ' id='basic-heading-one-default'>
+                <a  href="index.html"
+                    class='accordion-toggle group rounded  p-5  accordion-active:text-indigo-600 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 active:text-indigo-600'
+                    aria-controls='basic-collapse-one-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-home w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Inicio </h5>
+                        </div>
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-one-default' class='accordion-content w-full px-0 overflow-hidden pr-4 '
+                    aria-labelledby='basic-heading-one-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-one-default'>
+                <button
+                    class='accordion-toggle group rounded p-5  accordion-active:text-indigo-600 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 active:text-indigo-600'
+                    aria-controls='basic-collapse-one-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-file w-5 fa-lg" style="color: #ffffff;"></i>
+
+                            <h5 class="montserrat-semibold text-2xl text-white">Facturacion</h5>
+                        </div>
+
+
+                    </div>
+
+                </button>
+                <div id='basic-collapse-one-default' class='accordion-content w-full px-0 overflow-hidden pr-4 '
+                    aria-labelledby='basic-heading-one-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-two-default'>
+                <button
+                    class='accordion-toggle group  rounded  p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-two-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-search w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Consultar</h5>
+
+                        </div>
+
+                    </div>
+
+                </button>
+                <div id='basic-collapse-two-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-two-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-three-default'>
+                <a
+                    href="Contacto.html"
+                    class='accordion-toggle group rounded p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-three-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-envelope w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Contacto</h5>
+                        </div>
+
+
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-three-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-three-default'>
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl' id='basic-heading-three-default'>
+                <a
+                    href="Ayuda.html"
+                    class='accordion-toggle group rounded p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-three-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-question-circle fa-lg w-5" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Ayuda </h5>
+
+                        </div>
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-three-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-three-default'>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
 
     <section class="content-center h-full z-30">
         <div data-aos="zoom-out" data-aos-delay="50" class="h-[70vh] bg-bgContacto bg-cover content-center relative">
-            <div class="h-[70vh] bg-gradient-to-r from-blue-950/90 to-cyan-600/80 content-center">
+            <div class="h-[70vh] bg-gradient-to-r from-red-800/80 to-rose-900/90 content-center">
                 <div class="flex flex-space-x-5 z-20 justify-center flex-wrap items-center">
                     <div class="max-w-7xl px-6">
                         <h1 data-aos="fade-up" data-aos-delay="100"
@@ -110,7 +228,7 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-2 gap-5">
                 <div class="col-span-2 md:col-span-1 p-5">
-                    <h1 data-aos="fade-up" data-aos-delay="100" class="text-5xl montserrat-bold text-cyan-700">
+                    <h1 data-aos="fade-up" data-aos-delay="100" class="text-5xl montserrat-bold text-rose-500">
                         <span class="text-xl">Comunicate a</span> <br>
                         soporte
                     </h1>
@@ -128,8 +246,8 @@
                     <div class="flex flex-row w-full space-y-2 items-center">
                         <div class="flex flex-col w-full space-y-2">
                             <div class="w-full flex p-5 space-x-5 shadow-lg rounded-lg">
-                                <div class="h-24 w-24 rounded-full bg-cyan-100 content-center">
-                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-phone text-cyan-700 mx-auto"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" /></svg>
+                                <div class="h-24 w-24 rounded-full bg-rose-100 content-center">
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-phone text-rose-700 mx-auto"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 3a1 1 0 0 1 .877 .519l.051 .11l2 5a1 1 0 0 1 -.313 1.16l-.1 .068l-1.674 1.004l.063 .103a10 10 0 0 0 3.132 3.132l.102 .062l1.005 -1.672a1 1 0 0 1 1.113 -.453l.115 .039l5 2a1 1 0 0 1 .622 .807l.007 .121v4c0 1.657 -1.343 3 -3.06 2.998c-8.579 -.521 -15.418 -7.36 -15.94 -15.998a3 3 0 0 1 2.824 -2.995l.176 -.005h4z" /></svg>
                                 </div>
 
                                 <div class="flex flex-row items-center">
@@ -141,8 +259,8 @@
                             </div>
 
                             <div class="w-full flex p-5 space-x-5 shadow-lg rounded-lg">
-                                <div class="h-24 w-24 rounded-full bg-cyan-100 content-center">
-                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="text-cyan-700 mx-auto icon icon-tabler icons-tabler-filled icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>
+                                <div class="h-24 w-24 rounded-full bg-rose-100 content-center">
+                                    <svg  xmlns="http://www.w3.org/2000/svg"  width="50"  height="50"  viewBox="0 0 24 24"  fill="currentColor"  class="text-rose-700 mx-auto icon icon-tabler icons-tabler-filled icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>
                                 </div>
 
                                 <div class="flex flex-row items-center">
@@ -173,11 +291,11 @@
 
 <footer class="bg-white w-full shadow  ">
     <div class="w-full max-w-7xl px-6 mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center justify-center md:justify-between">
+        <div class="flex w-full flex-wrap md:flex-nowrap justify-center md:justify-between space-y-5 md:space-y-0">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <img src="../public/img/logo-santa.png" class="h-32" alt="Flowbite Logo" />
+                <img src="../../public/img/logo-santa.png" class="h-32" alt="Flowbite Logo" />
             </a>
-            <ul class="flex flex-wrap items-center space-x-3 mb-6 text-sm font-medium text-black sm:mb-0 ">
+            <ul class="flex w-full md:w-auto justify-center items-center space-x-3 mb-6 text-sm font-medium text-black sm:mb-0">
                 <li>
                     <a href="https://www.facebook.com/stacatarinagob/" class="hover:underline me-4 md:me-6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -224,7 +342,7 @@
 
             </ul>
         </div>
-        <span class="block text-sm text-black montserrat-semibold sm:text-center ">© 2024 <a
+        <span class="block text-sm text-black montserrat-semibold text-center ">© 2024 <a
                 href="https://flowbite.com/" class="hover:underline">Munipio de Santa Catarina Nuevo Leon</a> - Todos
             los derechos reservados.</span>
     </div>

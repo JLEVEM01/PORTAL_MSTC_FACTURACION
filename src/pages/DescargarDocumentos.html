@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../public/img/logo-santa-escudo-w.png" type="image/x-icon">
+
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/DescargarDocumentos/DescargarDocumentos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 
 
     <title>Descaragar documentos</title>
@@ -23,32 +27,36 @@
 <body class="relative">
 
 
-    <nav class="bg-transparent fixed z-40 w-full md:bg-white md:shadow-xl flex justify-center h-12">
-        <div class="flex md:space-x-5 justify-beetwwen">
+    <nav class="bg-transparent fixed z-40 w-full md:bg-white md:shadow-xl flex  justify-center h-12">
+
+        <div class="flex  md:space-x-5 justify-beetwwen">
 
             <div class=" hidden md:block content-center ">
-                <ul class="flex  text-sm intems-center space-x-5">
+                <ul class="flex  text-sm items-center space-x-5">
                     <li>
                         <a data-aos="fade-left" data-aos-delay="800" href="index.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">Inicio</a>
                     </li>
-                    <li>
+                    <li class="group relative ">
                         <a data-aos="fade-left" data-aos-delay="400" href="ConsultarFactura/Consulta.html"
-                            class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">Consulta</a>
+                            class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
+                            Consulta
+
+                        </a>
+
                     </li>
                 </ul>
             </div>
 
-
             <div data-aos="fade-down" data-aos-delay="100"
-                class="bg-gray-900 shadow-lg h-24 w-44 m-auto  content-center rounded-b-2xl">
-                <img data-aos="zoom-in" data-aos-delay="200" src="../public/img/logo-santa-w.png" alt="" width="150"
+                class="bg-black shadow-lg h-28 md:h-24 md:h-28 w-56 m-auto  content-center rounded-b-2xl">
+                <img data-aos="zoom-in" data-aos-delay="200" src="../../public/img/logo-santa-w.png" alt="" width="180"
                     class="m-auto">
 
                 <div class="flex justify-center ">
                     <button data-collapse-toggle="navbar-multi-level" type="button"
-                        class="inline-flex items-center mx-auto p-2 h-10 w-10 bg-white rounded-full  justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                        aria-controls="navbar-multi-level" aria-expanded="false">
+                        class="inline-flex items-center mx-auto p-2  h-10 w-10 bg-white rounded-full transition-transform duration-300  justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-multi-level" aria-expanded="false" id="menu-toggle">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 17 14">
@@ -57,20 +65,24 @@
                         </svg>
                     </button>
                 </div>
+
             </div>
 
+
             <div class=" hidden md:block  content-center ">
-                <ul class="flex  text-smintems-center  space-x-5">
-                    <li><a data-aos="fade-right" data-aos-delay="400" href=""
+                <ul class="flex  text-sm items-center  space-x-5">
+                    <li><a data-aos="fade-right" data-aos-delay="400" href="Contacto.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
                             Contacto
                         </a>
                     </li>
                     <li>
+
                         <a data-aos="fade-right" data-aos-delay="800" href="Ayuda.html"
                             class="relative  w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left montserrat-semibold">
                             Ayuda
                         </a>
+
                     </li>
                 </ul>
             </div>
@@ -78,8 +90,118 @@
 
         </div>
 
+
     </nav>
 
+    <div class="w-full h-screen fixed z-30 bg-rose-900/30 backdrop-blur-2xl content-center hidden md:hidden "
+        id="navbar-multi-level">
+
+        <div class='accordion-group' data-accordion="default-accordion">
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl  ' id='basic-heading-one-default'>
+                <a  href="index.html"
+                    class='accordion-toggle group rounded  p-5  accordion-active:text-indigo-600 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 active:text-indigo-600'
+                    aria-controls='basic-collapse-one-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-home w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Inicio </h5>
+                        </div>
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-one-default' class='accordion-content w-full px-0 overflow-hidden pr-4 '
+                    aria-labelledby='basic-heading-one-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-one-default'>
+                <button
+                    class='accordion-toggle group rounded p-5  accordion-active:text-indigo-600 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 active:text-indigo-600'
+                    aria-controls='basic-collapse-one-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-file w-5 fa-lg" style="color: #ffffff;"></i>
+
+                            <h5 class="montserrat-semibold text-2xl text-white">Facturacion</h5>
+                        </div>
+
+
+                    </div>
+
+                </button>
+                <div id='basic-collapse-one-default' class='accordion-content w-full px-0 overflow-hidden pr-4 '
+                    aria-labelledby='basic-heading-one-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-two-default'>
+                <button
+                    class='accordion-toggle group  rounded  p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-two-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-search w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Consultar</h5>
+
+                        </div>
+
+                    </div>
+
+                </button>
+                <div id='basic-collapse-two-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-two-default'>
+
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl ' id='basic-heading-three-default'>
+                <a
+                    href="Contacto.html"
+                    class='accordion-toggle group rounded p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-three-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-envelope w-5 fa-lg" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Contacto</h5>
+                        </div>
+
+
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-three-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-three-default'>
+                </div>
+            </div>
+
+            <div class='accordion p-3 bg-dark/20 backdrop-blur-xl m-2 rounded-xl' id='basic-heading-three-default'>
+                <a
+                    href="Ayuda.html"
+                    class='accordion-toggle group rounded p-5 inline-flex items-center justify-between leading-8 text-gray-600 w-full transition duration-500 hover:text-indigo-600 accordion-active:text-indigo-600'
+                    aria-controls='basic-collapse-three-default'>
+                    <div class="flex space-x-2 justify-between items-center w-full">
+                        <div class="flex space-x-5 items-center">
+                            <i class="fas fa-question-circle fa-lg w-5" style="color: #ffffff;"></i>
+                            <h5 class="montserrat-semibold text-2xl text-white">Ayuda </h5>
+
+                        </div>
+
+                    </div>
+
+                </a>
+                <div id='basic-collapse-three-default' class='accordion-content  w-full px-0 overflow-hidden  pr-4 '
+                    aria-labelledby='basic-heading-three-default'>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
     <section class="content-center h-full pt-32 pb-20 z-20">
         <div class="max-w-6xl mx-auto px-10">
@@ -91,44 +213,44 @@
                     <div href="Facturacion.html" class="flex w-full border-b-4 flex items-center p-4 border-r relative">
                         <div class="flex items-center">
                             <div
-                                class="w-10 h-10 flex items-center justify-center bg-emerald-400  text-indigo-600 rounded-full">
+                                class="w-10 h-10 flex items-center justify-center bg-rose-500  text-indigo-600 rounded-full">
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon text-white icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
                             </div>
                             <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-emerald-600">Busqueda</div>
+                                <div class="text-lg montserrat-semibold text-rose-500">Busqueda</div>
                                 <div class="text-gray-500 text-sm text-wrap montserrat-regular">Identificar comprobante</div>
                             </div>
                         </div>
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-emerald-600"></div>
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-rose-500"></div>
                     </div>
 
                     <div href="" class="flex w-full border-b-4 flex items-center p-4 border-r relative">
                         <div class="flex items-center">
                             <div
-                                class="w-10 h-10 flex items-center justify-center bg-emerald-400  text-indigo-600 rounded-full">
+                                class="w-10 h-10 flex items-center justify-center bg-rose-500  text-indigo-600 rounded-full">
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon text-white icon-tabler icons-tabler-outline icon-tabler-check"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l5 5l10 -10" /></svg>
                             </div>
                             <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-emerald-600">Datos fiscales</div>
+                                <div class="text-lg montserrat-semibold text-rose-500">Datos fiscales</div>
                                 <div class="text-gray-500 montserrat-regular text-sm text-wrap">Ingresa tus datos fiscales</div>
                             </div>
                         </div>
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-emerald-600"></div>
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-rose-500"></div>
                     </div>
                     <!-- Step 3 -->
                     <div href="" class="flex w-full border-b-4 flex items-center p-4 border-r relative">
                         <div class="flex items-center">
                             <div
-                                class="w-10 h-10 flex items-center justify-center  rounded-full bg-emerald-400">
+                                class="w-10 h-10 flex items-center justify-center  rounded-full bg-rose-500">
                                 <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon text-white icon-tabler icons-tabler-outline icon-tabler-download"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><path d="M7 11l5 5l5 -5" /><path d="M12 4l0 12" /></svg>
 
                             </div>
                             <div class="ml-4">
-                                <div class="text-lg montserrat-semibold text-emerald-600">Documentos</div>
+                                <div class="text-lg montserrat-semibold text-rose-500">Documentos</div>
                                 <div class="text-gray-500 montserrat-regular text-sm text-wrap">Descarga XML y PDF</div>
                             </div>
                         </div>
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-emerald-600"></div>
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-rose-500"></div>
                     </div>
                 </div>
             </div>
@@ -136,27 +258,17 @@
             <div class="flex flex-row flex-wrap space-x-1 justify-center my-5">
 
                 <div class="flex flex-col justify-center space-y-3">
-                    <h1 data-aos="zoom-in" data-aos-delay="300" class="montserrat-bold text-center text-6xl text-emerald-400 my-8">¡Descarga tu factura!</h1>
+                    <h1 data-aos="zoom-in" data-aos-delay="300" class="montserrat-bold text-center text-6xl text-rose-800 my-8">¡Descarga tu factura!</h1>
 
-                    <div class="group w-2/5 flex justify-center mx-auto h-full">
+                    <div class="group w-2/5 flex justify-center mx-auto h-full hu__hu__ ">
 
                         <a href="" data-aos="fade-right" data-aos-delay="800">
                             <div
-                                class="h-24 hover:border-emerald-400 content-center z-10 border-4 border-gray-900 w-24 content-center rounded-full bg-cyan-50 transition-all duration-500 transform group-hover:-translate-x-8">
+                                class="h-24 hover:border-rose-400 content-center z-10 border-4 border-gray-900 w-24 content-center rounded-full bg-cyan-50 transition-all duration-500 transform group-hover:-translate-x-8">
                                 <div
-                                    class="h-20 content-center m-auto w-20 rounded-full hover:bg-emerald-400 transition-all duration-500 transform bg-gray-900">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="icon icon-tabler icons-tabler-outline text-white m-auto icon-tabler-file-type-xml">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                        <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
-                                        <path d="M4 15l4 6" />
-                                        <path d="M4 21l4 -6" />
-                                        <path d="M19 15v6h3" />
-                                        <path d="M11 21v-6l2.5 3l2.5 -3v6" />
-                                    </svg>
+                                    class="h-20 content-center m-auto w-20 rounded-full hover:bg-rose-400 transition-all duration-500 transform bg-gray-900">
+                                    <img src="../../public/img/XML.png" alt="" width="50" class="mx-auto">
+
                                 </div>
 
                             </div>
@@ -165,21 +277,11 @@
 
                         <a href="" data-aos="fade-right" data-aos-delay="500">
                             <div
-                                class="h-24 content-center z-20 -ml-14 border-4 border-gray-900 hover:border-emerald-400 w-24 content-center rounded-full bg-cyan-50 transition-all duration-500 transform group-hover:translate-x-8">
+                                class="h-24 content-center z-20 -ml-14 border-4 border-gray-900 hover:border-rose-400 w-24 content-center rounded-full bg-cyan-50 transition-all duration-500 transform group-hover:translate-x-8">
                                 <div
-                                    class="h-20 content-center m-auto w-20 rounded-full bg-gray-900 hover:bg-emerald-400 transition-all transform duration-500">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round"
-                                        class="icon icon-tabler icons-tabler-outline text-white m-auto icon-tabler-file-type-pdf">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                        <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                        <path d="M5 12v-7a2 2 0 0 1 2 -2h7l5 5v4" />
-                                        <path d="M5 18h1.5a1.5 1.5 0 0 0 0 -3h-1.5v6" />
-                                        <path d="M17 18h2" />
-                                        <path d="M20 15h-3v6" />
-                                        <path d="M11 15v6h1a2 2 0 0 0 2 -2v-2a2 2 0 0 0 -2 -2h-1z" />
-                                    </svg>
+                                    class="h-20 content-center m-auto w-20 rounded-full bg-gray-900 hover:bg-rose-400 transition-all transform duration-500">
+                                    <img src="../../public/img/PDF.png" alt="" width="50" class="mx-auto">
+
                                 </div>
                             </div>
                         </a>
@@ -217,22 +319,22 @@
 
                     <a href="Facturacion.html">
                         <div
-                            class="group content-center relative bg-yellow-100  h-10 overflow-hidden rounded  text-lg shadow">
+                            class="group content-center relative bg-rose-100  h-10 overflow-hidden rounded  text-lg shadow">
                             <div
-                                class="absolute inset-0 w-3 bg-yellow-300 transition-all duration-[250ms] ease-out group-hover:w-full">
+                                class="absolute inset-0 w-3 bg-rose-500 transition-all duration-[250ms] ease-out group-hover:w-full">
                             </div>
                             <div class="relative flex content-center items-center justify-center
-                            space-x-1 text-yellow-600 group-hover:text-white roboto-regular">
+                            space-x-1 text-rose-600 group-hover:text-white roboto-regular">
 
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    class="icon icon-tabler icons-tabler-outline icon-tabler-reload group-hover:text-gray-900">
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-reload group-hover:text-white">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                     <path d="M19.933 13.041a8 8 0 1 1 -9.925 -8.788c3.899 -1 7.935 1.007 9.425 4.747" />
                                     <path d="M20 4v5h-5" />
                                 </svg>
-                                <span class="group-hover:text-gray-900 montserrat-semibold">Generar nueva
+                                <span class="group-hover:text-white montserrat-semibold">Generar nueva
                                     factura</span>
                                 </svg>
                             </div>
@@ -262,12 +364,12 @@
 </body>
 
 <footer class="bg-white w-full shadow  ">
-    <div class="w-full max-w-7xl px-6 mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center justify-center md:justify-between">
+    <div class="w-full max-w-6xl px-6 mx-auto p-4 md:py-8">
+        <div class="flex w-full flex-wrap md:flex-nowrap justify-center md:justify-between space-y-5 md:space-y-0">
             <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <img src="../public/img/logo-santa.png" class="h-32" alt="Flowbite Logo" />
+                <img src="../../public/img/logo-santa.png" class="h-32" alt="Flowbite Logo" />
             </a>
-            <ul class="flex flex-wrap items-center space-x-3 mb-6 text-sm font-medium text-black sm:mb-0 ">
+            <ul class="flex w-full md:w-auto justify-center items-center space-x-3 mb-6 text-sm font-medium text-black sm:mb-0">
                 <li>
                     <a href="https://www.facebook.com/stacatarinagob/" class="hover:underline me-4 md:me-6">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -314,11 +416,12 @@
 
             </ul>
         </div>
-        <span class="block text-sm text-black montserrat-semibold sm:text-center ">© 2024 <a
+        <span class="block text-sm text-black montserrat-semibold text-center ">© 2024 <a
                 href="https://flowbite.com/" class="hover:underline">Munipio de Santa Catarina Nuevo Leon</a> - Todos
             los derechos reservados.</span>
     </div>
 </footer>
+
 
 
 </html>
