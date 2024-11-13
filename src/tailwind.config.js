@@ -6,9 +6,8 @@ tailwind.config = {
                 clifford: '#da373d',
             },
             backgroundImage: {
-                "bgIndex": "url('/public/img/Backgrounds/bgIndex2.jpg')",
-                "bgFAQ": "url('/public/img/Backgrounds/bgFAQ.jpg')",
-                "bgContacto": "url('/public/img/Backgrounds/bgContacto.jpg')"
+                "bgFAQ": "url('/assets/img/Backgrounds/bgFAQ.jpg')",
+                "bgContacto": "url('/assets/img/Backgrounds/bgContacto.jpg')"
             },
             
 

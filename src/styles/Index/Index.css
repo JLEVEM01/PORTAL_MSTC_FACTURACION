@@ -1,12 +1,12 @@
 :root {
     --color-bg1: rgb(136, 19, 55 );
     --color-bg2: rgb(153, 27, 27);
-    --color1: 244, 63, 94;
-    --color2: 244, 63, 94;
-    --color3: 251, 113, 133;
-    --color4: 190, 18, 60;
-    --color5: 69, 10, 10;
-    --color-interactive: 252, 165, 165;
+    --color1: 247, 41, 76;
+    --color2: 218, 55, 83;
+    --color3: 183, 65, 85;
+    --color4: 186, 36, 62;
+    --color5: 218, 55, 83;
+    --color-interactive: 218, 55, 83;
     --circle-size: 80%;
     --blending: hard-light;
 }
